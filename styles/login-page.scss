@@ -1,0 +1,92 @@
+@import './reset';
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 500px;
+    margin: 0 auto;
+
+    .pop-up {
+        display: flex;
+
+        flex-direction: column;
+
+        .heading {
+            text-align: center;
+            font-weight: 700;
+            font-size: 18px;
+            color: #B88E2F;
+        }
+
+        .form-control {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+
+            label {
+                color: #B88E2F;
+                font-weight: 500;
+                margin-bottom: 5px;
+
+            }
+
+            input {
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid black;
+                outline: none;
+
+            }
+        }
+
+        .form-btn {
+            display: flex;
+            justify-content: center;
+
+            button {
+                padding: 10px 50px;
+                border: none;
+                background: #F9F1E7;
+                font-weight: 500;
+                border-radius: 10px;
+                margin: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 15px 0;
+
+            .fb {
+                background: #0171D3;
+                border: 1px solid #0171D3;
+                color: white;
+            }
+
+            .gg {
+                color: #000;
+                border: 1px solid #000;
+                background: none;
+            }
+
+            button {
+                min-width: 100px;
+                padding: 7px 20px;
+                font-weight: 500;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+
+
+            }
+        }
+    }
+
+
+}

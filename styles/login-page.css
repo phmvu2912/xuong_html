@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 500px;
+  margin: 0 auto;
+}
+.login .pop-up {
+  display: flex;
+  flex-direction: column;
+}
+.login .pop-up .heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #B88E2F;
+}
+.login .pop-up .form-control {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.login .pop-up .form-control label {
+  color: #B88E2F;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.login .pop-up .form-control input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+}
+.login .pop-up .form-btn {
+  display: flex;
+  justify-content: center;
+}
+.login .pop-up .form-btn button {
+  padding: 10px 50px;
+  border: none;
+  background: #F9F1E7;
+  font-weight: 500;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.login .pop-up .btn-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+.login .pop-up .btn-group .fb {
+  background: #0171D3;
+  border: 1px solid #0171D3;
+  color: white;
+}
+.login .pop-up .btn-group .gg {
+  color: #000;
+  border: 1px solid #000;
+  background: none;
+}
+.login .pop-up .btn-group button {
+  min-width: 100px;
+  padding: 7px 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=login-page.css.map */
