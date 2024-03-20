@@ -104,15 +104,109 @@ section {
         flex-direction: column-reverse;
         transition: 0.5s ease-in-out;
 
+        &-img {
+            width: 100%;
+            height: auto;
+            position: relative;
 
-        .addtocart button {
-            padding: 10px 30px;
-            background-color: #FFFFFF;
-            color: #B88E2F;
-            font-weight: 600;
-            border: none;
-            cursor: pointer;
+            .discount {
+                pos
+                .discount-value {
+                    
+                    width: 20px;
+                    border: 1px solid black;
+                }
+            }
         }
+
+        
+
+        .group {
+            display: flex;
+            flex-direction: column;
+
+            .addtocart button {
+                padding: 10px 50px;
+                background-color: #FFFFFF;
+                color: #B88E2F;                
+                font-weight: 600;
+                border: none;
+                cursor: pointer;
+                transition: 0.2s ease-in-out;
+            }
+            .addtocart button:hover {
+                background-color: #B88E2F;
+                color: black;
+                transition: 0.2s ease-in-out;
+            }
+
+            .addtocart {
+                flex: 1;
+            }
+            .sub-act {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                // gap: 5px;
+                margin: 10px 0;
+                // a {
+                //     flex: 1; 
+                //     color: white;
+                    
+                //     &:nth-child(2) {
+                //         text-align: center;
+                //     }
+                // }
+
+                .act-share {
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    gap: 3px;
+                    flex: 1; 
+                    margin-bottom: 3px;
+                    p {
+                        color: white;
+                        margin-bottom: 3px;
+                    }
+                }
+
+                .act-compare {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .act-like {
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 3px;
+                    flex: 1; 
+                    p {
+                        color: white;
+                        margin-bottom: 4px;
+                    }
+
+                    img:hover {
+                        color: red;
+                    }
+                }
+
+                p:hover {
+                    color: #B88E2F;
+                    text-decoration: underline #B88E2F;
+
+                }
+            }
+
+            // .sub-act a:hover {
+            //     color: red;
+            // }
+
+            
+        }       
     }
 
     // .card-action>* {

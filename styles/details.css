@@ -357,15 +357,58 @@ hr {
   flex-direction: column-reverse;
   transition: 0.5s ease-in-out;
 }
-.card-action .addtocart button {
-  padding: 10px 30px;
+.card-action-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.card-action-img .discount pos .discount-value {
+  width: 20px;
+  border: 1px solid black;
+}
+.card-action .group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-action .group .btn-act {
+  flex: 1;
+}
+.card-action .group .btn-act button {
+  max-width: 200px;
+  min-width: 200px;
+  padding: 10px;
   background-color: #FFFFFF;
+  color: #B88E2F;
   font-weight: 600;
   border: none;
   cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
-.card-action .addtocart button a {
+.card-action .group .btn-act button:hover {
+  background-color: #B88E2F;
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+.card-action .group .sub-act {
+  flex: 1;
+  margin: 5px 0;
+}
+.card-action .group .sub-act button {
+  max-width: 200px;
+  min-width: 200px;
+  padding: 10px;
+  background-color: #FFFFFF;
   color: #B88E2F;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.card-action .group .sub-act button:hover {
+  background-color: #B88E2F;
+  color: black;
+  transition: 0.2s ease-in-out;
 }
 
 .card:hover .card-action {
